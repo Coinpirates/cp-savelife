@@ -1,0 +1,20 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v1
+      - name: Deploy mint4ukraine
+        run: cd /opt/charity && export GITHUB_REF=${GITHUB_REF} && bash ./build.sh;
+      - name: Notify
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_CHANNEL: ci_cd
+          SLACK_USERNAME: backBot
+        uses: orange1337/action-slack@master
+        with:
+          args: "Mint4Ukraine \n branch: {{GITHUB_REF}} \n status: ${{job.status}} \n actor: {{GITHUB_ACTOR}} \n event: {{GITHUB_EVENT_NAME}}"
