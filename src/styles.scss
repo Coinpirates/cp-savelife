@@ -141,6 +141,10 @@ footer {
     }
     .footer-logo {
         text-align: center;
+
+        img {
+            max-width: 400px;
+        }
     }
     .development {
         text-align: right;
