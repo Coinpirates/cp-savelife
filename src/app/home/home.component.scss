@@ -114,42 +114,52 @@
     }
 }
 
+.nft-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .nft-header-big {
+        color: $white;
+        font-weight: 300;
+        font-size: 144px;
+        line-height: 156px;
+        margin-right: 56px;
+    }
+    .nft-header-small {
+        .nft-header-blue {
+            font-weight: 300;
+            font-size: 36px;
+            line-height: 32px;
+            color: $blue;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+        }
+        .nft-header-yellow {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            color: $yellow;
+            text-transform: uppercase;
+        }
+    }
+    .nft-header {
+        color: $light-grey;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
 .nfts {
     padding: 56px 140px 16px 140px; 
 
-    .nft-header {
-        display: flex;
-        align-items: center;
-        margin-bottom: 50px;
-
-        .nft-header-big {
-            color: $white;
-            font-weight: 300;
-            font-size: 144px;
-            line-height: 156px;
-            margin-right: 56px;
-        }
-        .nft-header-small {
-            .nft-header-blue {
-                font-weight: 300;
-                font-size: 36px;
-                line-height: 32px;
-                color: $blue;
-                margin-bottom: 16px;
-                text-transform: uppercase;
-            }
-            .nft-header-yellow {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 32px;
-                color: $yellow;
-                text-transform: uppercase;
-            }
-        }
-    }
-
     .nfts-list-container {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
 
         .nft-container {
@@ -199,7 +209,7 @@
 }
 
 .action {
-    height: 80vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,4 +229,25 @@
     .btn-action {
         margin-top: 60px;
     }
+}
+
+.team {
+    color: $white;
+    padding: 56px 140px 226px 140px;
+
+    .team-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 11px;
+
+        .team-name {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 16px;
+        }
+    }
+    
 }
