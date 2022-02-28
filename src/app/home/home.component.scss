@@ -106,3 +106,89 @@
         }
     }
 }
+
+.nfts {
+    padding: 56px 140px 156px 140px; 
+
+    .nft-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .nft-header-big {
+            color: $white;
+            font-weight: 300;
+            font-size: 144px;
+            line-height: 156px;
+            margin-right: 56px;
+        }
+        .nft-header-small {
+            .nft-header-blue {
+                font-weight: 300;
+                font-size: 36px;
+                line-height: 32px;
+                color: $blue;
+                margin-bottom: 16px;
+                text-transform: uppercase;
+            }
+            .nft-header-yellow {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 32px;
+                color: $yellow;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .nfts-list-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .nft-container {
+            padding: 26px 11px;
+
+            img {
+                max-width: 340px;
+                margin-bottom: 16px;
+            }
+            
+            .nft-container-flex {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                .nft-lable {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: $light-grey;
+                }
+
+                .nft-lable-value {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 24px;
+                    color: $blue;
+                }
+            }
+            .nft-details {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 32px;
+                color: $yellow;
+                border-bottom: 2px solid $yellow;
+                padding-bottom: 4px;
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 16px;
+                display: block;
+            }
+            .nft-details:hover {
+                border-bottom: 2px solid $blue;
+            }
+        }
+    }
+
+
+}
