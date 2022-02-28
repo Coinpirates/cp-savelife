@@ -65,3 +65,44 @@
         bottom: 50px;
     }
 }
+
+.about {
+    padding: 156px 140px;
+    text-transform: uppercase;
+    background-image: url('../../assets/images/about.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .about-header-light {
+        font-weight: 300;
+    }
+    .about-header {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 80px;
+        color: $white;
+    }
+    .about-header-right {
+        color: $white;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: normal;
+        margin-top: -32px;
+
+        p {
+            padding-left: 40px;
+            margin-top: 24px;
+        }
+        .top-50 {
+            margin-top: 56px;
+        }
+
+        ul {
+            li {
+                padding: 16px 0;
+                border-bottom: 1px solid #333333;
+            }
+        }
+    }
+}
