@@ -1,1 +1,200 @@
-/* You can add global styles to this file, and also import other style files */
+@import './variables.scss';
+
+@font-face {
+    font-family: Helvetica;
+    src: url(./assets/fonts/HelveticaNowText-Regular.woff);
+    font-display: swap;
+    font-weight: 400;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(./assets/fonts/HelveticaNowText-Medium.woff);
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(./assets/fonts/HelveticaNowText-Bold.woff);
+    font-display: swap;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $black;
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}
+.visible-mobile-bar{
+    display: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none !important;
+    transition: all .3s;
+}
+a:hover {
+    color: $blue !important;
+}
+ul {
+    li {
+        list-style: none !important;
+    }
+}
+.no-padding {
+   padding: 0; 
+}
+#closeMenu{
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 18px;
+    z-index: 102;
+    top: 27px;
+}
+.main-nav-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.header {
+    padding: 16px 113px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+}
+.main-nav {
+    display: flex;
+    padding-left: 40px;
+
+    li {
+        a {
+            color: $white;
+            font-size: 16px;
+            line-height: 24px;
+            margin-right: 24px;
+            transition: all .3s;
+        }
+    }
+}
+.main-btn {
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 13px 57px;
+    font-weight: bold;
+    transition: all .3s;
+}
+.btn-yellow {
+    border: 1px solid $yellow;
+    color: $yellow;
+}
+.btn-yellow:hover {
+    border: 1px solid $blue;
+    color: $blue;
+}
+.btn-blue {
+    border: 1px solid $blue;
+    color: $blue;
+}
+.btn-blue:hover {
+    border: 1px solid $yellow;
+    color: $yellow;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background: $white;
+    padding: 124px 124px 48px 124px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    .footer-text {
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 110px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .development {
+        text-align: right;
+    }
+    .footer-links {
+        margin-top: 175px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer-legal {
+        text-align: center;
+        margin-top: 46px;
+
+        a {
+            color: $black;
+            margin-right: 40px;   
+        }
+    }
+    .footer-social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 76px;
+    }
+    .footer-social-link{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: $blue;
+        margin-right: 16px;
+        transition: all .3s;
+    }
+    .footer-social-link:hover {
+        background: $yellow;
+    }
+    .footer-link {
+        color: $black;
+    }
+}
+.grey-label {
+    color: $grey;
+}
+
+@media only screen and (max-width : 768px) { 
+    .visible-mobile-bar{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+    #closeMenu{
+        display: block;
+    }
+}

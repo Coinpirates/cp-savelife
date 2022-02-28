@@ -1,1 +1,73 @@
+<section id="header" class="target">
+    <div class="header animate-menu">
+        <div class="main-nav-container"> 
+            <a href="/" class="logo">
+                <img src="assets/images/logo.svg" alt="Coinpirates">
+            </a>
+            <div class="visible-mobile-bar">
+                <img src="assets/images/toggle.svg" id="menuBar" alt="bar">
+            </div>
+            <nav id="nav">
+                <img src="assets/images/close-back.svg" alt="close" id="closeMenu">
+                <ul class="main-nav">
+                    <li><a scroll="home" class="btn-hover" href="/#section-home">Home</a></li>
+                    <li><a scroll="about" class="btn-hover" href="/#section-about">About</a></li>
+                    <li><a scroll="auctions" class="btn-hover" href="/#section-auctions">Auctions</a></li>
+                    <li><a scroll="team" class="btn-hover" href="/#section-team">Team</a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li>
+                        <a class="main-btn btn-yellow" href="">Auctions</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
 <router-outlet></router-outlet>
+
+<footer> 
+    <div class="footer-line">
+        <div class="row"> 
+          <div class="col-sm-12 no-padding main-footer-flex-container">
+              <div class="footer-logo">
+                <a href="/">
+                  <img src="assets/images/logo.png" alt="Mint4Ukraine">
+                </a>
+                <div class="footer-text">Bringing PEACE TO <br> THE WORLD</div>
+              </div>
+              <div class="footer-social">
+                <a class="footer-social-link" href="" target="_blank">
+                  <img src="assets/images/social/instagram.svg" width="23" alt="instagram">
+                </a>
+                <a class="footer-social-link" href="https://t.me/coinpiratesgame" target="_blank">
+                  <img src="assets/images/social/telegram.svg" alt="telegram">
+                </a>
+                <a class="footer-social-link" href="https://twitter.com/mint4_ukraine" target="_blank" >
+                  <img src="assets/images/social/twitter.svg" alt="twitter">
+                </a>
+              </div>
+              <div class="footer-legal">
+                <a routerLink="/privacy" class="btn-hover main-links">Privacy Policy</a>
+                <a routerLink="/terms" class="btn-hover main-links">Terms of Use</a>
+              </div>
+          </div>
+  
+          <div class="col-sm-6 footer-links no-padding">
+            <div class="copyright">
+              Mint4Ukraine.org © 2022 All rights reserved.
+            </div>
+          </div>
+          <div class="col-sm-6 footer-links no-padding">
+            <div class="development">
+              <span class="grey-label">Development: </span> 
+              <a href="https://coinpirates.io" target="_blank" class="footer-link">
+                coinpirates.io
+              </a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+</footer>
