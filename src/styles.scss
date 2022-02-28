@@ -116,6 +116,14 @@ ul {
     border: 1px solid $yellow;
     color: $yellow;
 }
+.btn-white {
+    border: 1px solid $white;
+    color: $white;
+}
+.btn-white:hover {
+    border: 1px solid $blue;
+    color: $blue;
+}
 #nav {
     display: flex;
     align-items: center;

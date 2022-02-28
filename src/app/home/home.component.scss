@@ -1,5 +1,12 @@
 @import '../../variables.scss';
 
+.color-blue {
+    color: $blue;
+}
+.color-yellow {
+    color: $yellow;
+}
+
 .home {
     color: $white;
     display: flex;
@@ -108,7 +115,7 @@
 }
 
 .nfts {
-    padding: 56px 140px 156px 140px; 
+    padding: 56px 140px 16px 140px; 
 
     .nft-header {
         display: flex;
@@ -189,6 +196,27 @@
             }
         }
     }
+}
 
+.action {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/images/text.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    .action-container {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.7vw;
+        line-height: 7.4vh;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+    }
+    .btn-action {
+        margin-top: 60px;
+    }
 }
