@@ -58,115 +58,17 @@
         </div>
     </div>
     <div class="nfts-list-container">
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
+        <div class="nft-container" *ngFor="let art of arts">
+            <img [src]="art?.imgLink" alt="">
             <div class="nft-container-flex">
                 <span class="nft-lable">
                     Artist:
                 </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
+                <a [href]="art?.authorLink" class="nft-lable-value" target="_blank">
+                    @{{art?.author}}
                 </a>
             </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
-                Details
-            </a>
-        </div>
-        <div class="nft-container">
-            <img src="assets/images/nfts/1.png" alt="">
-            <div class="nft-container-flex">
-                <span class="nft-lable">
-                    Artist:
-                </span>
-                <a href="" class="nft-lable-value" target="_blank">
-                    @soul.departs
-                </a>
-            </div>
-            <a href="" class="nft-details" target="_blank">
+            <a [href]="art?.details" class="nft-details" target="_blank">
                 Details
             </a>
         </div>

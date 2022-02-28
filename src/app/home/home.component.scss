@@ -40,7 +40,7 @@
         text-align: center;
         position: relative;
         z-index: 1003;
-        padding-top: 140px;
+        padding-top: 100px;
 
         .home-text {
             font-weight: bold;
@@ -163,7 +163,7 @@
         flex-wrap: wrap;
 
         .nft-container {
-            padding: 26px 11px;
+            padding: 26px 7px;
 
             img {
                 max-width: 340px;
@@ -239,7 +239,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0px 11px;
+        flex-wrap: wrap;
+
+        .team-info {
+            margin-bottom: 32px;
+            padding: 0px 7px;
+        }
 
         .team-name {
             font-style: normal;

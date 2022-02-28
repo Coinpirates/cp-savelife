@@ -12,4 +12,31 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  arts = [
+    {
+      imgLink: 'assets/images/nfts/1.png',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/1.png',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/1.png',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/1.png',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    }
+  ];
+
 }
