@@ -85,6 +85,21 @@ export class HomeComponent implements OnInit, AfterViewInit {
       author: 'sveta_svetllana',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025918823514505226'
     },
+    {
+      imgLink: 'assets/images/nfts/Olha_Nazarets.png',
+      author: 'rua_neja',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025921022537760769'
+    },
+    {
+      imgLink: 'assets/images/nfts/Maksym_Gordiyenko.jpeg',
+      author: 'gordi.art',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025922122049388554'
+    },
+    // {
+    //   imgLink: 'assets/images/nfts/Kolontaieva_Anastasia.jpeg',
+    //   author: '',
+    //   details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025919923026133002'
+    // },
     // {
     //   imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
     //   author: 'dima.erlikh.art',
