@@ -69,7 +69,9 @@
     </div>
     <div class="nfts-list-container">
         <div class="nft-container" *ngFor="let art of arts">
-            <img [src]="art?.imgLink" alt="">
+            <a [href]="art?.details" target="_blank">
+                <img [src]="art?.imgLink" alt="">
+            </a>
             <div class="nft-container-flex">
                 <span class="nft-lable">
                     Artist:
