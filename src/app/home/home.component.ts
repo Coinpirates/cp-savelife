@@ -53,12 +53,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
       author: 'sestry_feldman',
-      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025914425467994122'
+      details: ''
     },
     {
       imgLink: 'assets/images/nfts/Misha_Pokutnii.jpg',
       author: 'pokutnii',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025914425467994122'
     },
     {
       imgLink: 'assets/images/nfts/Michell_Feldman.jpg',
@@ -73,7 +73,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/Katya_Kononenko.jpg',
       author: 'katya_kononenko_art',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025916624491249674'
     },
     {
       imgLink: 'assets/images/nfts/etchingroom1.jpg',
