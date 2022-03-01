@@ -53,7 +53,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
       author: 'sestry_feldman',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025914425467994122'
     },
     {
       imgLink: 'assets/images/nfts/Misha_Pokutnii.jpg',
@@ -68,7 +68,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/Maria_Sovich.jpg',
       author: 'm.sovych',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025915524979621898'
     },
     {
       imgLink: 'assets/images/nfts/Katya_Kononenko.jpg',
