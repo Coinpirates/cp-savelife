@@ -74,7 +74,7 @@
 }
 
 .about {
-    padding: 156px 140px;
+    padding: 156px 8.1vw;
     text-transform: uppercase;
     background-image: url('../../assets/images/about.png');
     background-size: cover;
@@ -155,7 +155,7 @@
 }
 
 .nfts {
-    padding: 56px 140px 16px 140px; 
+    padding: 56px 8.1vw 16px 8.1vw; 
 
     .nfts-list-container {
         display: flex;
@@ -233,7 +233,7 @@
 
 .team {
     color: $white;
-    padding: 56px 140px 226px 140px;
+    padding: 56px 8.1vw 226px 8.1vw;
 
     .team-container {
         display: flex;
