@@ -80,6 +80,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
       author: 'etching.room1',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025917724002877450'
     },
+    {
+      imgLink: 'assets/images/nfts/Svitlana_Shynkarchuk.png',
+      author: 'sveta_svetllana',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025918823514505226'
+    },
     // {
     //   imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
     //   author: 'dima.erlikh.art',
