@@ -219,6 +219,47 @@ footer {
     #closeMenu{
         display: block;
     }
+    .header {
+        padding: 24px 6.53vw;
+        
+        .main-nav-container {
+            justify-content: space-between;
+        }
+
+        #nav{
+            display: none;
+            background: $black;
+            position: fixed;
+            left: 0px;
+            top: -10px;
+            height: 102vh;
+            width: 100%;
+            z-index: 101;
+        }
+        .main-nav{
+            position: fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding-top: 75px;
+            align-items: center;
+            z-index: 101;
+            background: $black;
+            padding-left: 32px;
+
+            li {
+                a {
+                    margin-bottom: 29px;
+                    display: block;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
     footer {
         padding: 16px;
 
@@ -244,5 +285,9 @@ footer {
             font-size: 28px;
             line-height: normal;
         }
+    }
+
+    .nav-right {
+        display: none;
     }
 }

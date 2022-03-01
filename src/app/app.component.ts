@@ -22,5 +22,11 @@ export class AppComponent implements OnInit, AfterViewInit {
             this.helperService.scrollTo(val);
         }
     });
+    this.$('#closeMenu').click(() => {
+      this.$('#nav').fadeOut();
+    });
+    this.$('#menuBar').click(() => {
+      this.$('#nav').fadeIn();
+    });
   }
 }
