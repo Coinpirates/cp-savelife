@@ -219,4 +219,30 @@ footer {
     #closeMenu{
         display: block;
     }
+    footer {
+        padding: 16px;
+
+        .footer-logo {
+            img {
+                max-width: 270px;
+            }
+        }
+        .footer-links {
+            text-align: center;
+            margin-top: 16px;
+        }
+        .development {
+            text-align: center;
+        }
+        .footer-legal {
+            margin-bottom: 24px;
+            a {
+                margin-right: 32px;
+            }
+        }
+        .footer-text {
+            font-size: 28px;
+            line-height: normal;
+        }
+    }
 }

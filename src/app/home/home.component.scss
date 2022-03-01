@@ -256,3 +256,74 @@
     }
     
 }
+
+@media only screen and (max-width : 768px) { 
+    .home {
+        justify-content: center;
+
+        .home-bottom {
+            padding-top: 0;
+
+            img {
+                max-width: 270px;
+            }
+            .home-text {
+                line-height: normal;
+            }
+            .home-text-small {
+                font-size: 4.7vw;
+            }
+        }
+    }
+    .about {
+        padding: 56px 8.1vw;
+
+        .about-header {
+            font-size: 36px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+        .about-header-right {
+            padding-left: 0;
+        }
+    }
+
+    .nft-header {
+        flex-direction: column;
+
+        .nft-header-big {
+            font-size: 108px;
+        }
+    }
+
+    .nfts {
+        .nfts-list-container {
+            justify-content: center;
+            flex-direction: column;
+
+            .nft-container {
+                img {
+                    max-width: 312px;
+                }
+            }
+        }
+    }
+
+    .team {
+        padding-bottom: 112px;
+
+        .team-container {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+
+    .action {
+        height: 60vh;
+
+        .action-container {
+            font-size: 28px;
+            line-height: normal;
+        }
+    }
+}
