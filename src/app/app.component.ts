@@ -1,20 +1,26 @@
-import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { HelperService } from './helper.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
-  constructor(private router: Router) { }
+export class AppComponent implements OnInit, AfterViewInit {
+  $ = (window as any).$;
+
+  constructor(private helperService: HelperService) { }
 
   ngOnInit() {
-      this.router.events.subscribe((evt) => {
-          if (!(evt instanceof NavigationEnd)) {
-              return;
-          }
-          window.scrollTo(0, 0);
-      });
+    window.scrollTo(0, 0);
+  }
+
+  ngAfterViewInit(): void {
+    this.$('.main-nav li a').click((event: any) => {
+        const val = this.$(event.target).attr('scroll');
+        if (val) {
+            this.helperService.scrollTo(val);
+        }
+    });
   }
 }
