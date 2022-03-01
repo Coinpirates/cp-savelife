@@ -93,7 +93,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/Andrey_Babchynsky.jpg',
       author: 'babchynsky',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025913325956366346'
     }
   ];
 
