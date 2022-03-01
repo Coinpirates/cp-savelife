@@ -38,73 +38,61 @@ export class HomeComponent implements OnInit, AfterViewInit {
     {
       imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
       author: 'soul.departs',
-      authorLink: '',
-      details: ''
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
     },
     {
       imgLink: 'assets/images/nfts/stanislav_soima.gif',
-      author: 'soul.departs',
-      authorLink: '',
-      details: ''
+      author: 'soima.stas',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025907828398227466'
     },
     {
       imgLink: 'assets/images/nfts/Radistkaa.jpg',
-      author: 'soul.departs',
-      authorLink: '',
-      details: ''
+      author: 'radistkaa',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025911126933110794'
     },
     {
       imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'sestry_feldman',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Misha_Pokutnii.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'pokutnii',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Michell_Feldman.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'sestry_feldman',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Maria_Sovich.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'm.sovych',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Katya_Kononenko.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'katya_kononenko_art',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/etchingroom1.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'katya_kononenko_art',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Du_Corpes.jpg',
-      author: 'soul.departs',
-      authorLink: '',
-      details: ''
+      author: 'geneve.m',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025912226444738570'
     },
     {
       imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'dima.erlikh.art',
       details: ''
     },
     {
       imgLink: 'assets/images/nfts/Andrey_Babchynsky.jpg',
-      author: 'soul.departs',
-      authorLink: '',
+      author: 'babchynsky',
       details: ''
     }
   ];
