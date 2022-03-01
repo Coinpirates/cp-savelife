@@ -208,6 +208,20 @@ footer {
     color: $white;
     margin: 140px 8.1vw;
 }
+#aboutVideo {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+
+    img {
+        max-width: 411px;
+    }
+}
+.about-link-active {
+    z-index: 1001;
+    position: relative;
+}
 
 @media only screen and (max-width : 768px) { 
     .visible-mobile-bar{
