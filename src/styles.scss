@@ -204,6 +204,10 @@ footer {
 .grey-label {
     color: $grey;
 }
+.legal {
+    color: $white;
+    margin: 140px 113px;
+}
 
 @media only screen and (max-width : 768px) { 
     .visible-mobile-bar{
