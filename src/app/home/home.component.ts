@@ -77,7 +77,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
     },
     {
       imgLink: 'assets/images/nfts/etchingroom1.jpg',
-      author: 'katya_kononenko_art',
+      author: 'etching.room1',
       details: ''
     },
     {
