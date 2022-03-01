@@ -36,25 +36,73 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   arts = [
     {
-      imgLink: 'assets/images/nfts/1.png',
+      imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
       author: 'soul.departs',
       authorLink: '',
       details: ''
     },
     {
-      imgLink: 'assets/images/nfts/1.png',
+      imgLink: 'assets/images/nfts/stanislav_soima.gif',
       author: 'soul.departs',
       authorLink: '',
       details: ''
     },
     {
-      imgLink: 'assets/images/nfts/1.png',
+      imgLink: 'assets/images/nfts/Radistkaa.jpg',
       author: 'soul.departs',
       authorLink: '',
       details: ''
     },
     {
-      imgLink: 'assets/images/nfts/1.png',
+      imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Misha_Pokutnii.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Michell_Feldman.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Maria_Sovich.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Katya_Kononenko.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/etchingroom1.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Du_Corpes.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
+      author: 'soul.departs',
+      authorLink: '',
+      details: ''
+    },
+    {
+      imgLink: 'assets/images/nfts/Andrey_Babchynsky.jpg',
       author: 'soul.departs',
       authorLink: '',
       details: ''
