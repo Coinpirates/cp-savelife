@@ -131,6 +131,7 @@
         font-size: 144px;
         line-height: 156px;
         margin-right: 56px;
+        white-space: nowrap;
     }
     .nft-header-small {
         .nft-header-blue {
@@ -269,6 +270,67 @@
     }   
 }
 
+.artists {
+    color: $white;
+    padding: 0px 8.1vw 226px 8.1vw;
+    background-image: url('../../assets/images/text.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .art-container {
+        background: linear-gradient(107.57deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 42px;
+        height: 100%;
+
+        h3 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            color: $light-grey;
+            text-transform: uppercase;
+            padding-bottom: 40px;
+            margin: 0;
+        }
+
+        .label-list {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 40px;
+            text-transform: uppercase;
+            display: block;
+            width: 100%;
+            padding-bottom: 32px;
+        }
+        
+        .label-list:last-child {
+            padding-bottom: 8px;
+        }
+
+        .art-flex-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 81%;
+            align-items: flex-start;
+        }
+
+        .label-email {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 33px;
+            text-transform: uppercase;
+            color: $blue;
+            border-bottom: 2px solid $blue;
+        }
+    }
+}
+
 @media only screen and (max-width : 768px) { 
     .home {
         justify-content: center;
@@ -339,6 +401,15 @@
         .action-container {
             font-size: 28px;
             line-height: normal;
+        }
+    }
+
+    .artists {
+        .nft-header-big {
+            font-size: 72px;
+        }
+        .art-mobile-margin {
+            margin-bottom: 32px;
         }
     }
 }
