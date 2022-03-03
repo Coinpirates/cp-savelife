@@ -36,12 +36,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   arts = [
     {
-      videoLink: 'https://ipfs.atomichub.io/ipfs/QmTPuN2Z2PPhqpNe3NoQammbZop5CRPJ1qc8KJ1dtftqYw',
+      videoLink: 'https://ipfs.io/ipfs/QmTPuN2Z2PPhqpNe3NoQammbZop5CRPJ1qc8KJ1dtftqYw',
       author: 'molokonahubakh',
       details: 'https://wax.atomichub.io/market/auction/748177'
     },
     {
-      videoLink: 'https://ipfs.atomichub.io/ipfs/QmdS1DvM1ivMgVhpVS3EnkmsLhHpxhguEStjXbfJjZCLUp',
+      videoLink: 'https://ipfs.io/ipfs/QmdS1DvM1ivMgVhpVS3EnkmsLhHpxhguEStjXbfJjZCLUp',
       author: 'molokonahubakh',
       details: 'https://wax.atomichub.io/market/auction/748178'
     },
