@@ -46,6 +46,21 @@ export class HomeComponent implements OnInit, AfterViewInit {
       details: 'https://wax.atomichub.io/market/auction/748178'
     },
     {
+      imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
+      author: 'soul.departs',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
+    },
+    {
+      imgLink: 'assets/images/nfts/putler.png',
+      author: 'lubskaaa',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025928719119155201'
+    },
+    {
+      imgLink: 'assets/images/nfts/sankovod.png',
+      author: 'sankovod',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025929818630782977'
+    },
+    {
       imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
       author: 'dima.erlikh.art',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025924321072644097'
@@ -64,11 +79,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
       imgLink: 'assets/images/nfts/mayak.jpeg',
       author: 'accordrenessound',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025926520095899649'
-    },
-    {
-      imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
-      author: 'soul.departs',
-      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
     },
     {
       imgLink: 'assets/images/nfts/stanislav_soima.gif',
@@ -126,8 +136,4 @@ export class HomeComponent implements OnInit, AfterViewInit {
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025922122049388554'
     },
   ];
-
-  // QmdS1DvM1ivMgVhpVS3EnkmsLhHpxhguEStjXbfJjZCLUp
-  // QmTPuN2Z2PPhqpNe3NoQammbZop5CRPJ1qc8KJ1dtftqYw
-
 }
