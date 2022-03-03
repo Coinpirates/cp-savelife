@@ -46,6 +46,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
       details: 'https://wax.atomichub.io/market/auction/748178'
     },
     {
+      imgLink: '/assets/images/nfts/Daria_Kovtun.jpeg',
+      author: 'nutvokart',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025930918142410753'
+    },
+    {
       imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
       author: 'soul.departs',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
