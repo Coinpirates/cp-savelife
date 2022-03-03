@@ -36,6 +36,26 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   arts = [
     {
+      imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
+      author: 'dima.erlikh.art',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025924321072644097'
+    },
+    {
+      imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
+      author: 'sestry_feldman',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025923221561016321'
+    },
+    {
+      imgLink: 'assets/images/nfts/ostapchuk.png',
+      author: '_soleiva_',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025927619607527425'
+    },
+    {
+      imgLink: 'assets/images/nfts/mayak.jpeg',
+      author: 'accordrenessound',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025926520095899649'
+    },
+    {
       imgLink: 'assets/images/nfts/vladislav_popereka.jpg',
       author: 'soul.departs',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
@@ -95,26 +115,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
       author: 'gordi.art',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025922122049388554'
     },
-    // {
-    //   imgLink: 'assets/images/nfts/Kolontaieva_Anastasia.jpeg',
-    //   author: '',
-    //   details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025919923026133002'
-    // },
-    // {
-    //   imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
-    //   author: 'dima.erlikh.art',
-    //   details: ''
-    // },
-    // {
-    //   imgLink: 'assets/images/nfts/Michell_Feldman.jpg',
-    //   author: 'sestry_feldman',
-    //   details: ''
-    // },
-    // {
-    //   imgLink: 'assets/images/nfts/Nickole_Feldman.jpg',
-    //   author: 'sestry_feldman',
-    //   details: ''
-    // },
   ];
 
 }
