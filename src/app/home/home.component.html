@@ -70,13 +70,20 @@
     <div class="nfts-list-container">
         <div class="nft-container" *ngFor="let art of arts">
             <a [href]="art?.details" target="_blank">
-                <img [src]="art?.imgLink" alt="">
+                <img [src]="art?.imgLink" *ngIf="art?.imgLink">
+                <div class="video-container" *ngIf="art?.videoLink">
+                    <video class="main-video-back planet-back" id="mapStart" playsinline autoplay [muted]="true" loop>
+                        <source [src]="art?.videoLink" type="video/mp4">
+                    </video>
+                </div>
             </a>
             <div class="nft-container-flex">
                 <span class="nft-lable">
                     Artist:
                 </span>
-                <a href="https://www.instagram.com/{{art?.author}}" class="nft-lable-value" target="_blank">
+                <a href="https://www.instagram.com/{{art?.author}}" 
+                    class="nft-lable-value" 
+                    target="_blank">
                     @{{art?.author}}
                 </a>
             </div>

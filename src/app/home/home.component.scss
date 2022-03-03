@@ -171,9 +171,16 @@
         .nft-container {
             padding: 26px 7px;
 
-            img {
+            img, video {
                 max-width: 340px;
+                max-height: 340px;
                 margin-bottom: 16px;
+            }
+            .video-container {
+                width: 340px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             
             .nft-container-flex {
@@ -307,9 +314,12 @@
             flex-direction: column;
 
             .nft-container {
-                img {
+                img, video {
                     max-width: 312px;
                 }
+            }
+            .video-container {
+                width: 312px;
             }
         }
     }

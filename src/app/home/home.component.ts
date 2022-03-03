@@ -36,6 +36,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   arts = [
     {
+      videoLink: 'https://ipfs.atomichub.io/ipfs/QmTPuN2Z2PPhqpNe3NoQammbZop5CRPJ1qc8KJ1dtftqYw',
+      author: 'molokonahubakh',
+      details: 'https://wax.atomichub.io/market/auction/748177'
+    },
+    {
+      videoLink: 'https://ipfs.atomichub.io/ipfs/QmdS1DvM1ivMgVhpVS3EnkmsLhHpxhguEStjXbfJjZCLUp',
+      author: 'molokonahubakh',
+      details: 'https://wax.atomichub.io/market/auction/748178'
+    },
+    {
       imgLink: 'assets/images/nfts/Dima_Erlikh.jpg',
       author: 'dima.erlikh.art',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025924321072644097'
@@ -116,5 +126,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025922122049388554'
     },
   ];
+
+  // QmdS1DvM1ivMgVhpVS3EnkmsLhHpxhguEStjXbfJjZCLUp
+  // QmTPuN2Z2PPhqpNe3NoQammbZop5CRPJ1qc8KJ1dtftqYw
 
 }
