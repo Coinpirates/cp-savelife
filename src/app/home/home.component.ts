@@ -56,6 +56,21 @@ export class HomeComponent implements OnInit, AfterViewInit {
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025910027421483018'
     },
     {
+      imgLink: 'assets/images/nfts/morrow.jpeg',
+      author: 'Vova Morrow',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025936415700549633'
+    },
+    {
+      imgLink: 'assets/images/nfts/marks.jpeg',
+      author: 'Katya Marks',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025937515212177409'
+    },
+    {
+      imgLink: 'assets/images/nfts/waiseartt.jpg',
+      author: 'Oleh Syrota',
+      details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025935316188921857'
+    },
+    {
       imgLink: 'assets/images/nfts/putler.png',
       author: 'lubskaaa',
       details: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/7143660949002791293845804557368133918929794955951157322707025928719119155201'
