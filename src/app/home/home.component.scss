@@ -258,6 +258,11 @@
         .team-info {
             margin-bottom: 32px;
             padding: 0px 7px;
+
+            img {
+                max-width: 272px;
+                border-radius: 5px;
+            }
         }
 
         .team-name {
