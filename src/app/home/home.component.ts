@@ -36,6 +36,27 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   arts = [
     {
+      videoLink: 'assets/images/videos/cyber.mp4',
+      author: 'cyber_dog69',
+      details: 'https://mint4ukraine.holaplex.com/listings/B3SCFiggQqAvXZfpayapvWS1TxGripVrKSRBJhb31bDX'
+    },
+    {
+      videoLink: 'assets/images/videos/Bayraktar.mp4',
+      author: 'gordi.art',
+      details: 'https://mint4ukraine.holaplex.com/listings/6uSSPRaQn4abRRbF24zVFoPXtxxqeVuT9mqDatTAj9cd'
+    },
+    {
+      videoLink: 'assets/images/videos/GhostofKyiv.mp4',
+      author: 'gordi.art',
+      details: 'https://mint4ukraine.holaplex.com/listings/8JHPkqkzR3wvpcGbpmdHHyLdoykx48x3sMjqpE2Ejh19'
+    },
+    {
+      imgLink: '/assets/images/nfts/Yarmola.jpg',
+      author: 'olefirenko_ksusha',
+      details: 'https://mint4ukraine.holaplex.com/listings/HegLfUBV1LFSNJgvquZj2hPdpYZVeH5VaVui87Bo6RFR'
+    },
+
+    {
       videoLink: 'assets/images/nfts/The_Devil_Above_The_Ground.mp4',
       author: 'molokonahubakh',
       details: 'https://wax.atomichub.io/market/auction/748177'
